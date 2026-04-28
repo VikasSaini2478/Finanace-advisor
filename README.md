@@ -130,6 +130,9 @@ FinancePRO_Upgraded/
 * 🧾 PDF financial reports
 * 🔎 Explainable AI (SHAP / LIME)<hr>
 
+# 📜 License
+* This project is open-source for educational and personal use.<hr>
+
 # 👨‍💻 Author
 * Vikas Saini
 * B.Tech | AI & Data Science
