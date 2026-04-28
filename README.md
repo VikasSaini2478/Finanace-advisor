@@ -81,6 +81,37 @@ FinancePRO_Upgraded/
     └── script.js
 
 ```
+<hr>
+
+#### Train the ML Models
+
+```bash
+python ml/train_models.py
+```
+
+This will:
+- Generate a 2,000-row synthetic finance dataset
+- Engineer features (savings_rate, expense_ratio, discretionary_ratio, etc.)
+- Train and compare multiple classifiers (Logistic Regression, Random Forest, XGBoost)
+- Train and compare regression models (Random Forest, Gradient Boosting)
+- Save the best models to `models/goal_model.pkl` and `models/expense_model.pkl`
+
+Expected output:
+```
+── Classification Results ──
+  logistic            : accuracy = 0.82xx
+  random_forest       : accuracy = 0.90xx
+  xgboost             : accuracy = 0.91xx
+
+  ✅ Best classifier: xgboost (accuracy=0.91xx)
+
+── Regression Results ──
+  random_forest       : RMSE = 1850.xx
+  gradient_boosting   : RMSE = 1620.xx
+
+  ✅ Best regressor: gradient_boosting (RMSE=1620.xx)
+```
+<hr>
 
 # ⚙️ Installation & Setup
 ## 1️⃣ Clone Repository
