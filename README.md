@@ -151,7 +151,7 @@ Expected output:
   <img width="1919" height="1079" alt="Screenshot 2026-04-28 165936" src="https://github.com/user-attachments/assets/0d95f275-3c0f-47f2-b71d-538de7ae4cb3" />
 
 ## Chatbot Interface
-  <img width="1917" height="1079" alt="Screenshot 2026-04-28 165901" src="https://github.com/user-attachments/assets/09fd0659-91a8-4886-b671-aae8510d9287" />
+ <img width="1915" height="1028" alt="Screenshot 2026-04-28 221459" src="https://github.com/user-attachments/assets/d6228603-c44e-4024-9115-c12dc9ea15f9" />
 
 ## Emergency Fund
   <img width="1919" height="1079" alt="Screenshot 2026-04-28 165830" src="https://github.com/user-attachments/assets/f2917153-70a4-4fe9-b3f3-cef89102ed36" />
