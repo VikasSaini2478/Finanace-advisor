@@ -46,7 +46,7 @@ Managing personal finances is often reactive and unstructured. This project tran
 # 📁 Project Structure
 
 ```
-FinancePRO_Upgraded/
+Personal Finance/
 ├── app.py                  ← Main Flask backend (upgraded)
 ├── db_config.py            ← MySQL connection config
 ├── database.sql            ← Full schema with new tables
