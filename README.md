@@ -47,33 +47,38 @@ Managing personal finances is often reactive and unstructured. This project tran
 
 ```
 FinancePRO_Upgraded/
-│
-├── app.py                  # Main Flask application
-├── db_config.py            # Database configuration
-├── database.sql            # SQL schema
-├── requirements.txt        # Dependencies
+├── app.py                  ← Main Flask backend (upgraded)
+├── db_config.py            ← MySQL connection config
+├── database.sql            ← Full schema with new tables
+├── requirements.txt        ← Python dependencies
 │
 ├── ml/
-│   └── train_models.py     # ML model training
+│   ├── __init__.py
+│   └── train_models.py     ← Dataset generation + model training
+│
+├── models/                 ← Saved ML model files (auto-created)
+│   ├── goal_model.pkl
+│   └── expense_model.pkl
 │
 ├── utils/
-│   ├── predictor.py        # Prediction logic
-│   ├── chatbot.py          # Chatbot functionality
-│   └── insights.py         # Financial insights
+│   ├── __init__.py
+│   ├── predictor.py        ← ML inference + Explainable AI
+│   ├── insights.py         ← Rule-based insights + health score
+│   └── chatbot.py          ← AI financial chatbot engine
 │
-├── templates/              # HTML pages
-│   ├── dashboard.html
-│   ├── prediction.html
-│   ├── chatbot.html
+├── templates/              ← All HTML pages
+│   ├── index.html          ← Login / Signup
+│   ├── dashboard.html      ← ✨ Upgraded: health score, insights
 │   ├── budget.html
 │   ├── transactions.html
-│   └── ...
+│   ├── goals.html
+│   ├── prediction.html     ← ✨ New: ML results + XAI + what-if
+│   ├── emergency.html      ← ✨ New: Emergency fund module
+│   └── chatbot.html        ← ✨ New: AI financial chatbot
 │
-├── static/
-│   ├── style.css
-│   └── script.js
-│
-└── models/                 # Saved ML models
+└── static/
+    ├── style.css
+    └── script.js
 
 ```
 
