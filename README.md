@@ -133,7 +133,3 @@ FinancePRO_Upgraded/
 # 📜 License
 * This project is open-source for educational and personal use.<hr>
 
-# 👨‍💻 Author
-* Vikas Saini
-* B.Tech | AI & Data Science
-* Aspiring Software Engineer / ML Engineer
