@@ -7,7 +7,7 @@ def init_db(app):
     # or edit the defaults below for local development only.
     app.config['MYSQL_HOST']        = os.environ.get('MYSQL_HOST', 'localhost')
     app.config['MYSQL_USER']        = os.environ.get('MYSQL_USER', 'root')
-    app.config['MYSQL_PASSWORD']    = os.environ.get('MYSQL_PASSWORD', 'VIKASSAINI#&7345')
+    app.config['MYSQL_PASSWORD']    = os.environ.get('MYSQL_PASSWORD', 'YOUR PASSWORD')
     app.config['MYSQL_DB']          = os.environ.get('MYSQL_DB', 'finance_advisor')
     app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
     return MySQL(app)
